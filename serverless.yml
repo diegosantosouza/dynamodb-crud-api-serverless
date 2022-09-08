@@ -1,4 +1,6 @@
-service: dynamodb-crud-api
+service: dynamodb-crud-api	
+org: diegosantosouza
+app: ${self.service}
 
 provider:
   name: aws
